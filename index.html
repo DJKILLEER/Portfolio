@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ Web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d4c4120d6a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="titleLOgo-removebg.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Dharmik Jain</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------------about--------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pixelimg.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" >About Me</h1>
+                    <p>Greetings! I am <b>dharmik Jain</b>, an enthusiastic and determined individual with a profound interest in the fascinating world of Computer Science and Engineering (CSE). With a successful completion of my 10th grade, where I achieved an impressive score of 83%, I am motivated to pursue a rewarding career that merges my passion for technology and my love for problem-solving.
+                       <br>
+                       I have invested considerable time and effort in acquiring a comprehensive understanding of JavaScript, CSS, and HTML. These languages have allowed me to design and develop interactive and visually appealing web applications. Additionally, my proficiency in C programming has further enhanced my understanding of the fundamental principles of programming and computational thinking.
+                        Driven by my curiosity and eagerness to continually upgrade my skills, I am constantly seeking new opportunities to expand my knowledge in the field..
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building desings of Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023 - current</span><br>Going as Freelencer</li>
+                            <li><span>2018-2023</span><br>Editing Videos,Photos,etc..</li>
+                            <li><span>2018-2021</span><br>Handeled Youtube page</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023</span><br>Studing Building My self As a developer</li>
+                            <li><span>2023</span><br>Passed 10std with 83%</li>
+                            <li><span>2008-2023</span><br>Baroda Public School,cbse</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------Services------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title" >My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>"Creating Engaging and User-Centric Web Designs for an Impactful Online Presence"</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>"Crafting Intuitive and Delightful User Experiences: A Passionate UI/UX Designer Dedicated to Transforming Ideas into Seamless Digital Interactions"</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>APP Design</h2>
+                    <p>"Harmonizing User Experiences in the Digital Soundscape: Designing Engaging and Intuitive Interfaces for a Seamless Music App Journey"</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------portfolio----------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>    <!------edit your work in end-->
+            <div class="work-list">
+            <div class="work">
+                <img src="profile3.jpeg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Dowload it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="cascad-1.jpeg" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Dowload it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="cascad-2.jpeg" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Dowload it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            </div>     
+            <a href="#" class="btn" >See more</a>
+        </div>
+    </div>
+ <!--------------------------------CONTACT------------------------------->
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>dharmikjain645@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>7359657846</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/Dharmik.jain.122?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/dharmikjain_122/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://codepen.io/killer-DJ"><i class="fa-brands fa-codepen"></i></a>
+                        </div>
+                        <a href="https://drive.google.com/drive/folders/1Jllro6X8JO9qeGLHmS5i0P3vrGFiVnLa?usp=share_link&pli=1" download class="btn btn2">Dowload Notes</a><!---Notes-->
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Killer@xyz.com" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright &#169; 2023 <i class="fa-sharp fa-solid fa-heart"></i> By Dharmik. All rights reserved.</p>
+
+            </div>
+         </div>
+
+    <script>
+
+         var tablinks = document.getElementsByClassName("tab-links");
+         var tabcontents = document.getElementsByClassName("tab-contents");
+
+         function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+         }
+
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxmJzeNBKe--LXBLZEemDKtDpV8dtn4BJFMOU38XlTZ3Vlpq4jXCvp4w_PUJdnGTDWf/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent sucessfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
